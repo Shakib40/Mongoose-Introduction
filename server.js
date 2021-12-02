@@ -78,7 +78,7 @@ app.delete("/movies/:id", async (req, res) => {
 
 });
 
-app.listen(2360, async function () {
+app.listen(2345, async function () {
   await connect();
-  console.log("listening on port 2360");
+  console.log("listening on port 2345");
 });
